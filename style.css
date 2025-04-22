@@ -1,0 +1,47 @@
+.cabecera1{
+
+    text-align: center;
+}
+header{
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 100px;
+    font-weight: bolder;
+    animation: ola 2s infinite ease-in-out;
+    color: yellow;
+    text-shadow: 10px 10px 10px black;
+    text-decoration: underline dashed;
+}
+
+@keyframes ola {
+0% {
+transform: translateY(0) skewY(0deg); 
+}
+50% {
+transform: translateY(-10px) skewY(10deg);
+}
+100% {
+transform: translateY(0) skewY(0deg); /* Regresa al estado inicial */
+}
+}
+body{
+    background-color: bisque;
+}
+h1{
+
+    border-color: aquamarine;
+    border:solid 5px;
+    border-radius: 10px;
+    border-color: aquamarine ;
+    background-color: aqua;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+
+}
+form{
+    display: flex;
+    position: relative;
+    align-items: center;
+    color: black;
+    margin-top: 10px;
+}
